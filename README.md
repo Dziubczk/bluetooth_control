@@ -2,14 +2,17 @@
 
 Bluetooth control plugin.
 
-## Getting Started
+## Check is Bluetooth enable
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+dart
+import 'package:bluetooth_control/bluetooth_control.dart';
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bool isBluetoothEnable = await BluetoothControl.isEnable;
+
+## Enable Bluetooth
+
+dart
+import 'package:bluetooth_control/bluetooth_control.dart';
+
+bool isEnableSuccess = await BluetoothControl.turnOn;
 
