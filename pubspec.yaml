@@ -1,8 +1,7 @@
 name: bluetooth_control
 description: Bluetooth control plugin.
 version: 0.0.1
-author: frostrch
-homepage:
+repository: https://github.com/frosdarch/bluetooth_control
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
